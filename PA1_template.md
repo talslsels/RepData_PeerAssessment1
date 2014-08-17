@@ -1,6 +1,5 @@
 # Reproducible Research: Peer Assessment 1
-==========================================
-Created by Xiaodan Zhang on July 18, 2014
+
 
 ### Basic settings
 
@@ -114,7 +113,7 @@ sum(is.na(data))
 
 * Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
-My strategy is to use the mean for that 5-minute interval to fill each NA value in the steps column.
+Strategy used here is to take the mean for that 5-minute interval to fill each NA value in the steps column.
 
 * Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
